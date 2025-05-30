@@ -40,8 +40,8 @@ export default function WiseWords({ search }) {
           {apiData?.results?.length > 0 ? (
             <div>
               {apiData?.results?.map((data) => (
-                <div>
-                  <div className="card-maqola-item" key={data.id}>
+                <div key={data.id}>
+                  <div className="card-maqola-item">
                     <p
                       className="maqola-title"
                       dangerouslySetInnerHTML={{ __html: data.text }}

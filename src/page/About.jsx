@@ -50,8 +50,8 @@ export default function About() {
       <Menu title="about_" />
       {apiData ? (
         <div className="about_detail">
-          {apiData?.results?.map((about) => (
-            <div>
+          {apiData?.results?.map((about, i) => (
+            <div key={i}>
               <h1>{about.title}</h1>
               <div className="about_card">
                 <div className="about_img">

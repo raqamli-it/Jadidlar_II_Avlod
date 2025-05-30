@@ -267,12 +267,12 @@ export default function HeaderHome() {
                   </ul>
                 </li>
                 <li>
-                  <li className="nav-drop vis-h li">
+                  <div className="nav-drop vis-h li">
                     <Link className="upper">{t("voqealar_")}</Link>
                     <div className="drop-icon">
                       <IoIosArrowDown />
                     </div>
-                  </li>
+                  </div>
                   <ul className="drop-hover">
                     <li>
                       <Link to="/yangiliklar">{t("yangiliklar_")}</Link>
@@ -286,12 +286,12 @@ export default function HeaderHome() {
                   </ul>
                 </li>
                 <li>
-                  <li className="nav-drop">
+                  <div className="nav-drop">
                     <Link className="upper">{t("kor_eshit_oqima_")}</Link>
                     <div className="drop-icon">
                       <IoIosArrowDown />
                     </div>
-                  </li>
+                  </div>
                   <ul className="drop-hover">
                     <li>
                       <Link to="/suratlar">{t("suratlar_")}</Link>
