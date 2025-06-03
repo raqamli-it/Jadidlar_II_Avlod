@@ -84,7 +84,7 @@ export default function JadidlarAll() {
                             {jadidlarAll.birthday
                               ? dateFormat(jadidlarAll.birthday, "yyyy")
                               : "?"}{" "}
-                            —{" "}
+                            -{" "}
                             {jadidlarAll.die_day
                               ? dateFormat(jadidlarAll.die_day, "yyyy")
                               : "?"}
